@@ -1,0 +1,109 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+
+*{
+  font-family: Bodoni Moda;
+}
+/* color-theme */
+:root {
+  --primary: #ffedec;
+  --secondary: #FFEFFF;
+  --mainfontcolor: #734F96;
+}
+
+/* header-style */
+.title{
+  color: var(--mainfontcolor);
+  line-height: 1.6;
+  font-size: 80px;
+}
+.introsentence, .currentDay {
+  color: var(--secondary);
+  line-height: 1.6;
+  font-size: 30px;
+}
+.currentDay {
+  font-size: 1.5rem, bold;
+  color: #FFDFD3;
+}
+
+/* body-style */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: var(--primary);
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #B19CD9;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid var(--mainfontcolor);
+  margin-bottom: 50px;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 5px solid var(--primary);
+}
+
+.hour {
+  background-color: #ffffff;
+  color: var(--mainfontcolor);
+  border-right: 1px dashed var(--mainfontcolor);
+}
+
+.past {
+  background-color: #F3F4F8;
+  color: var(--mainfontcolor);
+}
+
+.present {
+  background-color: #FF8242;
+  color: white;
+}
+
+.future {
+  background-color: #da81b5;
+  color: white;
+}
+
+/* button-style */
+.saveBtn {
+  border-left: 1px solid
+  border-top-right-radius 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #a379b2;
+  color:white
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+div.buttonDiv {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
